@@ -54,7 +54,7 @@ Pode colocar qualquer e-mail e senha pois o site se trata apenas de um projeto f
 
 ## Vercel
 
-recipes-app-bruna.vercel.app
+http://recipes-app-bruna.vercel.app
 
 ## Conclusão
 
