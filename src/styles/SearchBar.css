@@ -1,0 +1,40 @@
+.searchBar_container {
+  align-items: center;
+  background: #41197f;
+  border-radius: 0 0 20px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+}
+
+.searchBar_nav_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12px auto;
+  width: 100%;
+}
+
+.searchBar_label, .searchBar_label span {
+  margin: 0 5px;
+}
+
+.searchBar_btn {
+  background: #fcc436;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  height: 25px;
+  letter-spacing: 0.03em;
+  line-height: 12px;
+  margin: 7px auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+}

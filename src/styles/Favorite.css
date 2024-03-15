@@ -1,0 +1,69 @@
+.favorites-menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttton-reset-favorite {
+  background-color: white;
+  border: none;
+}
+
+.recipes-favorites {
+  align-items: center;
+  border: 0.5px solid #b1b1b1;
+  border-radius: 2%;
+  display: flex;
+  margin: 15px;
+}
+
+.img-recipes {
+  border-radius: 2%;
+}
+
+.text-recipes {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+
+.name-food {
+  color: #1a1b1c;
+  font-family: Epilogue , sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.done-date {
+  color: #1a1b1c;
+  font-family: Epilogue , sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tag-done {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  color: #797d86;
+  font-size: 10px;
+  padding: 3%;
+}
+
+.category-food {
+  color: #797d86;
+  font-family: Epilogue , sans-serif;
+  font-size: 14px;
+  margin-bottom: 33px;
+  margin-top: -17px;
+}
+
+.reset-link {
+  text-decoration: none;
+}
+
+.accert {
+  color: #003c1a;
+  font-family: Epilogue , sans-serif;
+  font-size: 10px;
+}

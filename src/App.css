@@ -1,0 +1,102 @@
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+/*
+#iceLeft {
+  animation: clink .8s infinite ease;
+  opacity: 0.6;
+  transform-origin: 36px 66px;
+}
+
+#iceRight {
+  animation: clink .8s .2s infinite ease;
+  opacity: 0.6;
+  transform-origin: 60px 78px;
+}
+*/
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+footer {
+  background-color: #41197f;
+  bottom: 0;
+  box-shadow: 0 0 15px 5px rgba(61, 2, 69, 0.45);
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.animation-icon:hover {
+  filter: contrast(200%) drop-shadow(0 0 2px rgba(0, 0, 0, 0.264));
+}
+
+.start-recipe-btn {
+  background-color: #fcc436;
+  border: solid 1px #fcc436;
+  border-radius: 5px;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  height: 40px;
+  text-transform: uppercase;
+  width: 336px;
+}
+
+.btn-start-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}

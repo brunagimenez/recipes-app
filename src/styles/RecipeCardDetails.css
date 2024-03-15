@@ -1,0 +1,156 @@
+.titleContainer {
+  align-items: center;
+  background-color: rgba(180, 137, 28, 0.76);
+  border-radius: 20px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 260px;
+  width: 360px;
+}
+
+.recipeTitle {
+  color: white;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.105em;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.recipeCategory {
+  color: rgb(252, 196, 54);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  height: 11px;
+  left: 60px;
+  line-height: 12px;
+  position: absolute;
+  top: 25px;
+  width: 140px;
+}
+
+.image-container {
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  height: 360px;
+  overflow: hidden;
+  width: 360px;
+}
+
+.recipePhoto {
+  max-width: 100%;
+}
+
+.icon {
+  border: 1.32px solid #fcc436;
+  border-radius: 33px;
+  box-sizing: border-box;
+  height: 33px;
+  left: 17.01px;
+  position: absolute;
+  top: 14px;
+  width: 33px;
+}
+
+.shareBtn {
+  border-radius: 15px;
+  bottom: 96.5%;
+  height: 32px;
+  left: 72%;
+  position: absolute;
+  right: 17.77%;
+  top: 1.75%;
+  width: 42px;
+}
+
+span {
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-weight: 300;
+  position: absolute;
+  right: 13px;
+  top: 47px;
+}
+
+.favoriteBtn {
+  border-radius: 15px;
+  bottom: 96.56%;
+  box-sizing: border-box;
+  height: 32px;
+  left: 85%;
+  position: absolute;
+  right: 8.36%;
+  top: 1.66%;
+  width: 42px;
+}
+
+.ingredientsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredientsContainer h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 20px 15px 0.1px;
+}
+
+.ingredientsContainer div {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 10px 15px 15px;
+  padding: 10px 15px 5px;
+}
+
+.instructionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.instructionsContainer h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 20px 15px 0.1px;
+}
+
+.instructionsContainer p {
+  border: 1px solid black;
+  border-radius: 15px;
+  line-height: 25px;
+  margin: 10px 15px 15px;
+  padding: 10px 15px 5px;
+}
+
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.videoContainer h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 20px 15px 0.1px;
+}
+
+.videoContainer iframe {
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 200px;
+  line-height: 25px;
+  margin: 10px 15px 15px;
+  padding: 10px 15px;
+  width: 330px;
+}

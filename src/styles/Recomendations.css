@@ -1,0 +1,72 @@
+section .slider {
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+.slider-content {
+  display: flex;
+  height: auto;
+  overflow: hidden;
+  width: 400%;
+}
+
+.slider-content input {
+  display: none;
+}
+
+.slide-box {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+}
+
+.slide-box img {
+  border-radius: 5px;
+  height: 135px;
+  width: 160px;
+}
+
+.carousel-title {
+  font-weight: 700;
+  margin-left: 23px;
+  margin-top: 25px;
+  size: 20px;
+}
+
+.re-card {
+  border: solid 0.5px #b1b1b1;
+  border-radius: 5px;
+  height: 166px;
+  margin-top: 10px;
+  width: 163px;
+}
+
+.re-card p {
+  font-size: 12px;
+  padding-left: 14px;
+  padding-top: 6px;
+  text-align: left;
+}
+
+.btns-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btns-carousel button {
+  background-color: #fcc436;
+  border: solid 1px #fcc436;
+  border-radius: 5px;
+  color: white;
+  flex-grow: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
