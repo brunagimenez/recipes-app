@@ -46,10 +46,15 @@ npm start
 http://localhost:3000
 
 
+5. O App foi desenvolvido para as dimensões de 360px x 740px
+
+Pode colocar qualquer e-mail e senha pois o site se trata apenas de um projeto frontend
+
+
 
 ## Vercel
 
-https://recipies-app.vercel.app/
+recipes-app-bruna.vercel.app
 
 ## Conclusão
 
